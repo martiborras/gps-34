@@ -1,0 +1,10 @@
+[MASTER]
+# No cal analitzar carpetes típiques si en tens
+ignore=.venv,venv
+
+[MESSAGES CONTROL]
+# Docstrings: en projectes petits i especialment en tests, és habitual no exigir-les
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring
